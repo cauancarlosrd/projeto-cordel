@@ -58,17 +58,24 @@ section{
 section.normal{
     background-color: white;
     color: black;
+    padding-bottom: 5vh;
+}
+
+section.normal>p{
+    padding-bottom: 5vh;
 }
 
 section.img01 , section.img02{
     color:white;
     background-color: rgb(84, 84, 84);
+    box-shadow: inset 0px 1px 16px 0px #00000080;
 }
 
 section.img01>p, section.img02>p{
     background-color: rgba(0, 0, 0, 0.367);
     display: inline-block;
     padding: 1vh;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.507);
 }
 
 section.img01{
